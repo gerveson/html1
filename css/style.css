@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+/* 
+SELETORES
+SELETOR DE TAG -> DIV, SPAN, P
+SELETOR DE CLASSE -> .nomeClasse
+SELETOR DE ID -> #nomeId
+SELETORES DE EVENTOS -> (pseudo seletores) seletorPrincipal:hover
+SELETORES DE ATRIBUTOS div [rel] div[rel="1"] rel="100" 
+
+UNIDADES DE MEDIDAS DO CSS
+PIXEL -> PX
+PORCENTAGEM -> %
+PROPORCIONAL DE CONTAINER -> EM
+PROPORCIONAL DE TELA -> REM
+REFERENCIAL DE VIEWPORT -> VW OU VH
+VW VIEWPORT WIDTH
+VH VIEWPORT HEIGHT
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: beige;*/
+    /* 
+    tipos de cores
+    hexadecimal -> #000000 RGB
+    00 -> Red
+    00 -> Green
+    00 -> Blue
+    NOME DAS CORES
+    black, red, yellow, green....
+
+    RGB
+    rgb(R, G, B) 0 ATE 255
+    rgba(R, G, B, A) 0 ATE 1
+    */
+
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top center;
+    background-color: beige;
+
+
+}
+
+.bloco{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+
+    padding: 15px; /* mesma regra de quatro lados, tem regra 
+    cruzada tbm.
+    padding: 10px;
+    padding: 5px 10px 15px 20px;
+    padding: 10px 25px;
+    */
+
+    /* 
+    border: expessura tipo cor;
+    tipos
+    none -> não setada
+    hidden -> oculta, semelhante a none
+    dotted -> borda pontilhada
+    dashed -> borda tracejada
+    solid -> linha continua
+    doble -> borda dupla
+    groove -> borda entalhada
+    ridge -> borda com ressalto
+    */
+
+    border: 4px groove green;    
+}
+div h1{
+    color: yellow; 
+}
+.bloco p{
+    /*
+    left, right, center, justify
+    */
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /*font-style: italic;*/
+    /*text-decoration: underline;*/
+    /*text-transform: uppercase;*/
+
+}
