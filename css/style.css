@@ -73,6 +73,7 @@ body{
     */
 
     border: 4px groove green;    
+    opacity: 1.0;
 }
 div h1{
     color: yellow; 
@@ -90,3 +91,4 @@ div h1{
     /*text-transform: uppercase;*/
 
 }
+/* pai    filho*/
