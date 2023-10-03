@@ -1,0 +1,90 @@
+#navegacao .nav-brand .grid-item{
+    background-color: beige;
+    padding: 40px;
+    display: grid;
+    gap: 10px; 
+    grid-template-columns: 40% auto;
+   }
+main{
+    max-width: 1280px;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding: 50px 0;      
+}
+/* DESTAQUES */
+#destaques article{
+    width: 22%;
+    display: inline-block;
+    margin: 0 1%;
+    vertical-align: top;
+}
+#destaques article header h3{
+    display: inline-block;
+    background-color: red;
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+#destaques article div.content{
+    min-height: 300px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.4);
+    text-align: center;
+}
+#destaques article div.title{
+    min-height: 100px;
+}
+#destaques article div.action{
+    padding: 10px 0;
+}
+#destaques article img{
+    width: 100%;
+}
+#destaques article ha{
+    padding: 4px 8px;
+    text-align: left;
+}
+
+/* COMPONENTES PADRÕES */
+.btn{
+    display: inline-block;
+    background-color: rgb(77, 77, 20);
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;    
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: beige;   
+}
+footer .esquerda,
+footer .centro,
+footer .direita{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+footer .esquerda h4,
+footer .centro h4,
+footer .direita h4{
+    font-size: 18px;
+}
+footer .direita{
+    padding-top: 40px;
+}
+footer .direita ul li{
+    list-style: none;
+    text-align: left;
+}
+footer .assinatura{
+    padding: 25px 0;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
